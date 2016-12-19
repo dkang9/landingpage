@@ -1,0 +1,46 @@
+
+#sched {
+	margin-right: 200px;
+	margin-left: relative;
+	margin-top: 100px;
+	position: absolute;
+	z-index: 1000;
+	right: 0;
+
+}
+
+@font-face {
+    font-family: "MarketFresh";
+    src: "fonts/MarketFresh.otf";
+}
+p.customfont { 
+    font-family: "MarketFresh", "San Serif";
+}
+
+#a {
+ 	background-color: #6B7DBD;
+}
+
+#b {
+ 	background-color: #EE925F;
+}
+
+
+#c {
+ 	background-color: #4867AE;
+}
+
+#title {
+	font-size: 50px; 
+	font-family: "customfont";
+	font-style: bold;
+	text-align: center;
+
+}
+
+#subtitle {
+	font-size: 50px; 
+	font-family: "San Serif";
+	font-style: bolder;
+	text-align: center;
+}
