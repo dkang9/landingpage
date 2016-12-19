@@ -9,13 +9,16 @@
 
 }
 
+#ba {
+	z-index: 100;
+	position: fixed;
+}
+
 @font-face {
-    font-family: "MarketFresh";
-    src: "fonts/MarketFresh.otf";
+    font-family: MarketFresh;
+    src: url(fonts/marketfresh.otf);
 }
-p.customfont { 
-    font-family: "MarketFresh", "San Serif";
-}
+
 
 #a {
  	background-color: #6B7DBD;
@@ -31,8 +34,8 @@ p.customfont {
 }
 
 #title {
-	font-size: 50px; 
-	font-family: "customfont";
+	font-size: 100px; 
+	font-family: MarketFresh;
 	font-style: bold;
 	text-align: center;
 
